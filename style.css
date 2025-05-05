@@ -214,6 +214,10 @@ footer ul li a{
   display: flex;
 }
 
+.our-result-img{
+  width: 50%;
+}
+
   @media (max-width: 768px) {
     .top-header .d-flex {
       flex-direction: column;
@@ -221,6 +225,13 @@ footer ul li a{
     }
     .mobile-header{
       display: none !important;
+    }
+
+    .university-table{
+      overflow-x: scroll;
+    }
+    .our-result-img{
+      width: 100%;
     }
   }
 
